@@ -29,6 +29,6 @@ public class Role {
         int remainBlood=role.getBlood()-hurt;
         remainBlood=remainBlood<0?0:remainBlood;
         role.setBlood(remainBlood);
-        System.out.println(this.getRole()+"打了"+role.getRole()+"一下，给"+role+"造成了"+hurt+"点伤害");
+        System.out.println(this.getRole()+"打了"+role.getRole()+"一下，给"+role.getRole()+"造成了"+hurt+"点伤害");
     }
 }
