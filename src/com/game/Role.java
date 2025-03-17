@@ -11,10 +11,10 @@ public class Role {
         this.role=role;
         this.blood=blood;
     }
-    public void setRole(String role){
+    public void setName(String role){
         this.role=role;
     }
-    public String getRole(){
+    public String getName(){
         return role;
     }
     public void setBlood(int blood){
@@ -29,6 +29,6 @@ public class Role {
         int remainBlood=role.getBlood()-hurt;
         remainBlood=remainBlood<0?0:remainBlood;
         role.setBlood(remainBlood);
-        System.out.println(this.getRole()+"打了"+role.getRole()+"一下，给"+role.getRole()+"造成了"+hurt+"点伤害");
+        System.out.println(this.getName()+"打了"+role.getName()+"一下，给"+role.getName()+"造成了"+hurt+"点伤害");
     }
 }

@@ -7,7 +7,7 @@ public class game_test {
         while(true){
             r1.attack(r2);
             if(r2.getBlood()==0){
-                System.out.println(r1.getRole()+"打败了"+r2.getRole());
+                System.out.println(r1.getName()+"打败了"+r2.getName());
                 break;
             }
         }
